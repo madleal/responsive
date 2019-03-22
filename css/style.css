@@ -116,8 +116,11 @@ a.skip-main:focus, a.skip-main:active {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+	nav ul{
+		display: flex;
+	}
 
-	nav li {
+	/*nav li {
 		margin: 1%;
 		padding: 1%;
 		float:left;
@@ -133,7 +136,7 @@ a.skip-main:focus, a.skip-main:active {
 		font-size: 40px;
 		text-decoration: none;
 		display: inline;
-	}
+	}*/
 
 	#content {
 		display: grid;
@@ -144,3 +147,5 @@ a.skip-main:focus, a.skip-main:active {
 
 }	
 /*I changed the layout of my About Page in the Desktop View to have the text right next to the image*/
+
+
